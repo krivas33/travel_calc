@@ -1,0 +1,26 @@
+h1 {
+  text-align: center;
+}
+
+p {
+  border: 5px solid red;
+  text-align: center;
+  font-size: 25px;
+}
+
+img {
+  width: 75%;
+  height: 10%;
+}
+
+.button{
+ display: block;
+ height: 100px;
+ width: 300px;
+ background: red;
+ border: 2px solid black;
+ color: black;
+ text-align: center;
+ font: bold 3.2em/100px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  text-decoration: none;
+}
