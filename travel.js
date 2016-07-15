@@ -1,6 +1,6 @@
 var cars = [
-  mpg: 18,
-  model: 'Mazda'
+  model: 'Mazda',
+  mpg: 18
 ];
 
 var trips = [
