@@ -7,7 +7,7 @@ var trips = [
   distance: 200,
   map: null,
   cost: null,
-  time: 295 //Minites
+  time: 295 // Minutes
 ];
 
 var gasStations = [
