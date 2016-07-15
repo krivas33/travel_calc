@@ -11,6 +11,6 @@ var trips = [
 ];
 
 var gasStations = [
-  costOfGas: 1.99,
+  price: 1.99,
   name: 'SHEETZ'
 ];
