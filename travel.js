@@ -16,9 +16,25 @@ var trips = [
 
 var gasStations = [
   {
-    price: 1.99,
+    price: 4.00,
     name: 'SHEETZ'
   }
 ];
 
-console.log(cars);
+
+var totalCost = calculateCost(gasStations[0].price, cars[0].mpg, trips[0].distance);
+
+document.getElementById("cost").innerHTML = totalCost;
+
+function calculateCost(priceOfGas, mpg, distance) {
+  var cost;
+
+  // Calculates the cost here
+  cost = distance / mpg * priceOfGas;
+
+  // Saves the cost of the trip in the Trips object
+  trips.cost = cost;
+
+  // function returns the cost
+  return trips.cost;
+}
