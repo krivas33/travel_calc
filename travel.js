@@ -1,16 +1,16 @@
 var cars = [
-  mpg: 18,
-  model: 'Mazda'
+  model: 'Mazda',
+  mpg: 18
 ];
 
 var trips = [
+  cost: null,
   distance: 200,
   map: null,
-  cost: null,
-  time: 295 //Minites
+  time: 295 // Minutes
 ];
 
 var gasStations = [
-  name: 'SHEETZ',
-  costOfGas: 1.99
+  costOfGas: 1.99,
+  name: 'SHEETZ'
 ];
